@@ -1,0 +1,76 @@
+/*-----------------------------------------------------------------------------------
+TEAM
+-----------------------------------------------------------------------------------*/
+
+.single-team .thmlvTeamSocial {
+	margin-bottom: 3em;
+	text-align: center;
+}
+
+.type-team:nth-of-type(3n+1) {
+	margin-left: 0;
+}
+
+.type-team {
+	display: inline-block;
+	*display: inline;
+	margin: 0 0 90px 2%;
+	vertical-align: top;
+	width: 32.0%;
+	zoom: 1;
+}
+
+.thmlvTeamSocial {
+	text-align: center;
+}
+
+/*-----------------------------------------------------------------------------------
+Links
+-----------------------------------------------------------------------------------*/
+
+.thmlvTeamSocial a {
+	border-radius: 100%;
+	display: inline-block;
+	font-size: 0.666em;
+	height: 2.6em;
+	line-height: 2.2em;
+	margin-right: 0.750em;
+	opacity: 0.5;
+	text-align: center;
+	transition: opacity 0.5s ease-out 0s;
+	-webkit-transition: opacity 0.5s ease-out 0s;
+	-o-transition: opacity 0.5s ease-out 0s;
+	width: 2.6em;
+}
+
+.thmlvTeamSocial a:hover {
+	opacity: 1;
+}
+
+/*-----------------------------------------------------------------------------------
+Typo
+-----------------------------------------------------------------------------------*/
+
+.type-team h1 {
+	font-size: 1.666em;
+	margin-bottom: 1.222em;
+	margin-top: 0.888em;
+	text-align: center;
+}
+
+.type-team .thmlvSectionCategories {
+	display: block;
+	font-size: 0.666em;
+	font-weight: 400;
+	letter-spacing: 0.222em;
+	line-height: 1.4em;
+	margin-top: 2.666em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.type-team .thmlvSectionCategories:after {
+	content : "";
+	display: block;
+	margin: 1.222em auto;
+	width: 50px;

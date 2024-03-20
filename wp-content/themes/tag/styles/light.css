@@ -1,0 +1,162 @@
+body {
+	color: #565656;
+}
+
+#thmlvAuthorBio {
+	border-top: 2px solid #e7e7e7;
+}
+
+.thmlvBlockPortfolio, #thmlvInnerNav .span_6 {
+	background-color: #1d1e1f;
+}
+
+.thmlvBlogMedia {
+	background-color: #1d1e1f;
+}
+
+#thmlvComments h1, #reply-title {
+    border-bottom: 1px solid #e7e7e7;
+    color: #363636;
+}
+
+#thmlvCommentsWrap {
+	background-color: #f7f7f7;
+}
+
+#thmlvContent {
+	background-color: #ffffff;
+}
+
+.thmlvCyclePager span:hover,
+.thmlvCyclePager span.cycle-pager-active {
+	background-color:#fff;
+}
+
+#thmlvFooterWrapper {
+	background-color: #e7e8e9;
+}
+
+#thmlvFooterWrapper .widget {
+	color: #666666;
+}
+
+.thmlvFullSection {
+	background-color: #1d1e1f;
+}
+
+#thmlvLoadingOverlay {
+	background-color: #ffffff;
+}
+
+#thmlvShareOverlay {
+	background-color: rgba(0, 0, 0, 0.92);
+}
+
+#thmlvScrollMenuWrap {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+#thmlvSpinnerImage {
+	border: 4px solid #ffffff;
+}
+
+#thmlvTitle {
+	background-color: #1d1e1f;
+}
+
+#thmlvToggleWrap {
+	background-color: #1d1e1f;
+}
+
+.type-team .thmlvSectionCategories {
+	color: #969696;
+}
+
+/*-----------------------------------------------------------------------------------
+Forms
+-----------------------------------------------------------------------------------*/
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=tel],
+input[type=date],
+textarea {
+	background-color: #f7f7f7;
+	color: #969696;
+}
+
+#commentform input[type=text],
+#commentform input[type=email],
+#commentform textarea {
+	background-color: #ffffff;
+	color: #969696;
+}
+
+/*-----------------------------------------------------------------------------------
+Links
+-----------------------------------------------------------------------------------*/
+
+.comment-edit-link,
+.comment-reply-link {
+	color: #969696;
+}
+
+#thmlvPostNavigation a {
+	color: #c6c6c6;
+}
+
+#thmlvPostNavigation a.thmlvNavNum {
+	background: none repeat scroll 0 0 #e7e7e7;
+    color: #ffffff;
+}
+
+.thmlvTeamSocial a {
+	border: 2px solid #969696;
+	color: #969696;
+}
+
+.typeSearch h1 a,
+.type-team h1 a {
+	color: #363636;
+}
+
+/*-----------------------------------------------------------------------------------
+Typo
+-----------------------------------------------------------------------------------*/
+
+#thmlvFooterWrapper .thmlvWidgetTitle {
+	color: #363636;
+}
+
+/*-----------------------------------------------------------------------------------
+Widgets
+-----------------------------------------------------------------------------------*/
+
+#calendar_wrap th,
+#thmlvFooterWidgetArea #calendar_wrap th {
+	border-bottom: 2px solid #cdcecf;
+}
+
+#calendar_wrap td, .recentcomments, .widget_archive ul li, .widget_categories ul li,
+.widget_meta ul li, .widget_meta ul li, .widget_links ul li, .widget_recent_entries ul li,
+#thmlvFooterWidgetArea #calendar_wrap td, #thmlvFooterWidgetArea .recentcomments,
+#thmlvFooterWidgetArea .thmlv-widget-standard-content .type-post, #thmlvFooterWidgetArea .widget_archive ul li,
+#thmlvFooterWidgetArea .widget_categories ul li, #thmlvFooterWidgetArea .widget_meta ul li,
+#thmlvFooterWidgetArea .widget_meta ul li, #thmlvFooterWidgetArea .widget_links ul li,
+#thmlvFooterWidgetArea .widget_recent_entries ul li {
+	border-bottom: 1px solid #cdcecf;
+}
+
+/*-----------------------------------------------------------------------------------
+Stuff
+-----------------------------------------------------------------------------------*/
+
+.thmlvCyclePager span {
+	background-color:#e7e7e7;
+	border-color: #ffffff;
+}
+
+.thmlvStandardPost .fa-circle {
+	color: #e7e7e7;
+}

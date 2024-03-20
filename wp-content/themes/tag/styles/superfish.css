@@ -1,0 +1,68 @@
+/*-----------------------------------------------------------------------------------
+Side menu
+-----------------------------------------------------------------------------------*/
+
+.thmlvSideMenu {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.thmlvSideMenu, .thmlvSideMenu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.thmlvSideMenu li {
+	margin-bottom: 1em;
+	position: relative;
+	text-align: center;
+}
+
+.thmlvSideMenu li a {
+	color: #f6f6f6;
+	font-size: 1.444em;
+}
+
+.thmlvSideMenu > ul {
+	position: absolute;
+	display: none;
+	top: 100%;
+	left: 0;
+	z-index: 99;
+}
+
+.thmlvSideMenu li:hover > ul,
+.thmlvSideMenu li.sfHover > ul {
+	display: block;
+}
+
+.thmlvSideMenu a {
+	position: relative;
+}
+
+.thmlvSideMenu .sub-menu li a {
+	font-size: 0.888em;
+	opacity: 0.5;
+}
+
+.thmlvSideMenuWrapper {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.sub-menu {
+	margin-bottom: 1.444em;
+	margin-top: 1em;
+}
+
+.sub-menu li {
+	line-height: 1.444em;
+	margin-bottom: 0;
+}
+
+.sub-menu li a:hover {
+	opacity: 1;
+}

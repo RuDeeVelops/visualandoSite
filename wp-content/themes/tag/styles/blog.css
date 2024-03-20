@@ -1,0 +1,318 @@
+/*-----------------------------------------------------------------------------------
+BLOG
+-----------------------------------------------------------------------------------*/
+
+.comment-respond {
+	margin: 0 auto;
+	max-width: 980px;
+}
+
+.single-post #thmlvContent {
+	padding-bottom: 0;
+}
+
+.single-post #thmlvVideoWrapper {
+	margin-bottom: 4em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1040px;
+}
+
+#thmlvAuthorBio {
+	font-size: 0.888em;
+	margin-top: 8em;
+	padding-left: 2.222em;
+	padding-right: 2.222em;
+	padding-top: 2.888em;
+}
+
+#thmlvAuthorInfo {
+	display: inline-block;
+}
+
+.thmlvBlogMedia {
+	background-position: center center;
+	background-repeat: none;
+	background-size: cover;
+	margin-bottom: 4em;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.thmlvBlogMedia:before {
+	content: "";
+    display: block;
+    padding-top: 50%;
+}
+
+.thmlvBlogMediaContent {
+	background: radial-gradient(ellipse at center center , rgba(0, 0, 0, 0) 0%, black 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	bottom: 0;
+	color: #ffffff;
+	position:  absolute;
+	left: 0;
+	right: 0;
+    top: 0;
+}
+
+.thmlvBlogMediaContent > div {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.thmlvCommentContent {
+	margin-left: 5.000em;
+	margin-top: 0.556em;
+}
+
+#thmlvCommentsWrap {
+	font-size: 0.888em;
+	margin-top: 7em;
+	padding-bottom: 6em;
+	padding-top: 4em;
+}
+
+.thmlvStandardPost {
+	margin: 0px auto 9em;
+	max-width: 1280px;
+	text-align: center;
+}
+
+.thmlvStandardPost .container {
+	margin-bottom: 6em;
+}
+
+/*-----------------------------------------------------------------------------------
+Forms
+-----------------------------------------------------------------------------------*/
+
+input[type=submit] {
+	border: 0px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	cursor: pointer;
+	font-size: 0.888em;
+	font-weight: 400;
+	padding: 12px 15px;
+	-webkit-appearance: none;
+	transition: opacity 0.2s ease-out 0s;
+	-webkit-transition: opacity 0.2s ease-out 0s;
+	-o-transition: opacity 0.2s ease-out 0s;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=tel],
+input[type=date],
+textarea {
+	border: 0px solid;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-weight: normal;
+	font-size: 0.889em;
+	line-height: 1.5;
+	margin: 10px 0 15px;
+	outline: none;
+	padding: 10px 15px;
+	width: 100%;
+}
+
+/*-----------------------------------------------------------------------------------
+Links
+-----------------------------------------------------------------------------------*/
+
+a.thmlvNavNum {
+	border-radius: 50%;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;	
+}
+
+.comment-edit-link,
+.comment-reply-link {
+	font-size: 0.75em;
+}
+
+.comment-reply-link {
+	border-bottom: 1px solid;
+	margin: 0 0.888em 0 7.000em;
+	padding: 0 0 5px;
+}
+
+.thmlvMoreLink {
+	border: 2px solid #363636;
+	box-shadow: inset 0 0 0 0 #363636;
+	color: #363636;
+	display: inline-block;
+	font-size: 0.666em;
+	margin-top: 6em;
+	padding: 1em 5em;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+}
+
+.thmlvMoreLink:hover {
+	box-shadow: inset 0 -100px 0 0 #363636;
+    color: #ffffff;
+    opacity: 1;
+}
+
+#thmlvPostNavigation a {
+	margin: 0 0.111em;
+}
+
+#thmlvSingleLink {
+	display: block;
+	font-size: 0.888em;
+	margin-bottom: 6em;
+}
+
+/*-----------------------------------------------------------------------------------
+Lists
+-----------------------------------------------------------------------------------*/
+
+.thmlvAuthorLinks li {
+	display: inline-block;
+	font-size: 0.888em;
+	list-style-type: none;
+	margin-right: 0.666em;
+}
+
+#thmlvPostNavigation ul {
+	font-size: 0.888em;
+	text-align: center;
+}
+
+#thmlvPostNavigation ul li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+/*-----------------------------------------------------------------------------------
+Typo
+-----------------------------------------------------------------------------------*/
+
+h3#reply-title {
+	margin-top: 4em;
+}
+
+h3#thmlvSingleQuote {
+	font-size: 1.888em;
+}
+
+.search-results .type-post p {
+	max-width: 100%;
+}
+
+.thmlvAuthorTitle {
+	font-size: 1.222em;
+	font-weight: 400;
+	margin: 0 0 0.666em;
+}
+
+.thmlvBlogMediaContent h1 {
+	font-size: 4.444em;
+	text-align: center;
+}
+
+#thmlvComments h1, h3#reply-title {
+	font-size: 1.666em;
+	margin-bottom: 1em;
+	padding: 0 0 0.666em;
+}
+
+.thmlvCommentList .comment {
+	list-style-type: none;
+	padding: 3em 0 2em;
+}
+
+.type-post p {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+}
+
+/*-----------------------------------------------------------------------------------
+Stuff
+-----------------------------------------------------------------------------------*/
+
+.comment img,
+#thmlvAuthorBio img {
+	border-radius: 50%;
+	float: left;
+	margin-right: 1.888em;
+}
+
+span.author {
+	font-size: 1.222em;
+	font-weight: 400;
+}
+
+.single .thmlvAuthor {
+	font-size: 0.888em;
+	margin-bottom: 6em;
+}
+
+.thmlvBlogMediaContent > div > div {
+	display: table-cell;
+	padding: 0 6em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.thmlvBlogMediaContent span {
+	font-size: 0.777em;
+	font-weight: 400;
+	letter-spacing: 0.222em;
+	line-height: 1.4em;
+	margin-top: 2.666em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.thmlvBlogMediaContent span:after {
+	content: "";
+	display: block;
+	margin: 2em auto;
+	width: 50px;
+}
+
+.thmlvMoreLink .fa {
+	margin-left: 0.750em;
+}
+
+.thmlvMoreWrapper {
+	display: block;
+	text-align: center;
+}
+
+.thmlvStandardPost .fa-circle {
+	font-size: 1em;
+}
+
+.thmlvStandardPost:last-of-type .fa-circle {
+display: none;
+}
+
+/*-----------------------------------------------------------------------------------
+Media queries
+-----------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1280px) {
+	.thmlvStandardPost {
+		margin-left: 2.5em;
+		margin-right: 2.5em;
+	}
+}

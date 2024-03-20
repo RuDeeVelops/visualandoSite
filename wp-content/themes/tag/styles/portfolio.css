@@ -1,0 +1,90 @@
+/*-----------------------------------------------------------------------------------
+PORTFOLIO
+-----------------------------------------------------------------------------------*/
+
+.page-template-thmlv-page-portfolio-php #thmlv-main {
+	padding-bottom: 7em;
+	padding-top: 7em;
+}
+
+.page-template-thmlv-page-portfolio-php #thmlvContent,
+.page-template-thmlv-page-portfolio-php .thmlvHeader,
+.tax-skills #thmlvContent,
+.tax-skills .thmlvHeader {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.thmlvBlockPortfolio {
+	background-position: center center;
+	background-size: cover;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	padding-top: 27.77%;
+	width: 50%;
+}
+
+.thmlvBlockPortfolio.format-quote, .thmlvBlockPortfolio.format-link {
+	color: #ffffff;
+}
+
+.thmlvBlockPortfolio > div {
+	background-repeat: repeat;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.thmlvPortfolioLabel {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.thmlvPortfolioLabelWrap {
+	display: table;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
+
+.thmlvPortfolioWrap {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.thmlvPortfolioWrap.thmlvPortfolioLink {
+	top: 100%;
+}
+
+/*-----------------------------------------------------------------------------------
+Typo
+-----------------------------------------------------------------------------------*/
+
+.thmlvPortfolioLabel h1 {
+	color: #ffffff;
+	font-size: 1.888em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: center;
+}
+
+/*-----------------------------------------------------------------------------------
+Stuff
+-----------------------------------------------------------------------------------*/
+
+.thmlvBlockPortfolio .fa {
+	margin-left: 0.750em;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.type-portfolio.format-video.thmlvFullSection video {
+		display: none;
+	}
+}

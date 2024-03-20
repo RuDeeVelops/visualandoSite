@@ -1,0 +1,18 @@
+/*----------------------------------------------------------------------------------------
+
+Themelovin Twitter widget CSS
+
+----------------------------------------------------------------------------------------*/
+
+.thmlv_widget_twitter li {
+	margin-bottom: 1em;
+}
+
+.thmlv_widget_twitter li:last-of-type {
+	margin-bottom: 0;
+}
+
+.thmlv-follow-link {
+	display: block;
+	margin-top: 2em;
+}

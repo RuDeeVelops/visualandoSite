@@ -1,0 +1,251 @@
+/*-----------------------------------------------------------------------------------
+HOME
+-----------------------------------------------------------------------------------*/
+
+.fp-slide {
+	background-position: center center;
+	background-size: cover;
+}
+
+.no-touch .type-portfolio.format-video.thmlvFullSection .thmlvPortfolioOverlay,
+.no-touch .type-portfolio.format-video.thmlvFullSection .thmlvVideoWrap,
+.no-touch .type-portfolio.format-video.thmlvFullSection video {
+	display: block;
+}
+
+.page-template-thmlv-page-home-php .thmlvHeader {
+	margin-bottom: 0;
+}
+
+.page-template-thmlv-page-home-php .thmlvHeader #thmlvRgba {
+	background-image: none;
+}
+
+.page-template-thmlv-page-home-php .thmlvHeader #thmlvTitle {
+	background-color: transparent;
+	background-image: none;
+}
+
+.single-portfolio #thmlvVideoWrapper {
+	margin-bottom: 4em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1040px;
+}
+
+#thmlvInnerNav {	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 9em;
+	max-width: 1040px;
+}
+
+.thmlvNavWrap {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.thmlvNavWrap.thmlvNavLink {
+	top: 100%;
+}
+
+.thmlvFullSection {
+	background-position: center center;
+	background-size: cover;
+}
+
+.thmlvFullSection.format-quote {
+	color: #ffffff;
+}
+
+#thmlvInnerNav .span_6 {
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	padding-top: 27.77%;
+}
+
+#thmlvInnerNav .span_6 > div {
+	background-repeat: repeat;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.thmlvNavLabel {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.thmlvNavLabelWrap {
+	display: table;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
+
+.type-portfolio.format-gallery.thmlvFullSection .thmlvGalleryWrap {
+	display: table;
+	height: 100%;
+	left:0;
+    margin-left:auto;
+    margin-right:auto;
+	position: absolute;
+	right:0;
+	width: 100%;
+	z-index: 11;
+}
+
+.type-portfolio.format-video.thmlvFullSection .thmlvVideoWrap {
+	display: none;
+	position: absolute;
+	width: 100%;
+	z-index: 11;
+}
+
+.type-portfolio.format-gallery.thmlvFullSection .thmlvGalleryCell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.type-portfolio.format-video.thmlvFullSection .thmlvPortfolioOverlay {
+	display: none;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+}
+
+.type-portfolio.format-video.thmlvFullSection video {
+	background: #000;
+	display: none;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.type-portfolio .container {
+	max-width: 80%;
+}
+
+.type-portfolio .container > div {
+	max-width: 800px;
+}
+
+.type-portfolio .container.thmlvCentered > div {
+	margin: 0 auto;
+}
+
+.type-portfolio .container.thmlvLeft > div {
+	float: left;
+}
+
+.type-portfolio .container.thmlvRight > div {
+	float: right;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .type-portfolio.format-video.thmlvFullSection video {
+       height: 400%;
+       top: -150%;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .type-portfolio.format-video.thmlvFullSection video {
+  		left: -150%;
+    	width: 400%;
+  }
+}
+
+/*-----------------------------------------------------------------------------------
+Links
+-----------------------------------------------------------------------------------*/
+
+.thmlvSectionTitle a {
+	color: #ffffff;
+}
+
+.thmlvSectionButton {
+	border: 2px solid #ffffff;
+	box-shadow: inset 0 0 0 0 #ffffff;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 0.666em;
+	margin-top: 2.444em;
+	padding: 1em 5em;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+}
+
+.thmlvSectionButton:hover {
+	box-shadow: inset 0 -100px 0 0 #ffffff;
+    color: #000000;
+    opacity: 1;
+}
+
+/*-----------------------------------------------------------------------------------
+Typo
+-----------------------------------------------------------------------------------*/
+
+.thmlvFullSection h1 {
+	font-size: 4.444em;
+}
+
+.thmlvNavLabel h3 {
+	color: #ffffff;
+	font-size: 1.888em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: center;
+}
+
+.type-portfolio .thmlvCentered > div,
+.type-portfolio .thmlvCentered h1 {
+	text-align: center;
+}
+
+/*-----------------------------------------------------------------------------------
+Stuff
+-----------------------------------------------------------------------------------*/
+
+.thmlvAuthor {
+	display: inline-block;
+	font-size: 0.666em;
+    margin-top: 3.444em;
+}
+
+.thmlvFullSection .fa {
+	margin-left: 0.750em;
+}
+
+.thmlvHeader.thmlvFullSection .fa {
+	margin-left: 0;
+}
+
+.thmlvSectionCategories {
+	color: #ffffff;
+}
+
+.type-portfolio .thmlvSectionCategories {
+	display: inline-block;
+	font-size: 0.666em;
+	letter-spacing: 0.222em;
+	text-transform: uppercase;
+}
+
+.type-portfolio .thmlvSectionCategories:after {
+	content : "";
+	display: block;
+	margin: 2em auto;
+	width: 50px;	
+}

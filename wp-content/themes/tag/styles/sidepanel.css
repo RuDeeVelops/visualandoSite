@@ -1,0 +1,154 @@
+body {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+body.thmlvToggleOpen {
+	overflow-y: hidden;
+}
+
+body.with-translate.thmlvToggleOpen {
+    left: 0;    
+    -webkit-transform: translate3d(-50% , 0 , 0);
+    -moz-transform: translate3d(-50%,0,0);
+    -ms-transform: translate3d(-50%,0,0);
+    -o-transform: translate3d(-50%,0,0);    
+    transform: translate3d(-50%,0,0);    
+}
+
+body:not(.with-translate).thmlvToggleOpen {
+    left: -50%;
+}
+
+body.ie10.with-translate #thmlvToggleWrap.thmlvToggleOpen {
+    -webkit-transform: translate3d(-50% , 0 , 0);
+    -moz-transform: translate3d(-50%,0,0);
+    -ms-transform: translate3d(-50%,0,0);
+    -o-transform: translate3d(-50%,0,0);    
+    transform: translate3d(-50%,0,0);    
+}
+
+body.with-translate #thmlvToggleWrap.thmlvToggleOpen {
+    right:-50%;
+}
+
+body:not(.with-translate) #thmlvToggleWrap.thmlvToggleOpen {
+    right: 0
+}
+
+#thmlvToggleClose,
+#thmlvToggleMenuWrap {
+	color: #ffffff;
+	cursor: pointer;
+	display:block;
+	position: absolute;
+	right: 2em;
+	top: 2em;
+	width:24px;
+	z-index: 1001;
+}
+
+#thmlvToggleContent {
+	height: 100%;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 1.111em 3.333em;
+	width: 100%;
+}
+
+.thmlvToggleOpen #thmlvToggleMenuWrap {
+	opacity: 0;
+}
+
+#thmlvToggleWrap {
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    width: 50%;
+    z-index: 101;
+}
+
+#thmlvToggleWrap, body{
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+/*-----------------------------------------------------------------------------------
+Media Queries
+-----------------------------------------------------------------------------------*/
+
+@media (max-width : 767px) {
+
+	body.with-translate.thmlvToggleOpen {
+		-webkit-transform: translate3d(-70% , 0 , 0);
+		-moz-transform: translate3d(-70%,0,0);
+		-ms-transform: translate3d(-70%,0,0);
+		-o-transform: translate3d(-70%,0,0);    
+		transform: translate3d(-70%,0,0);    
+	}
+
+	body:not(.with-translate).thmlvToggleOpen {
+		left: -70%;
+	}
+
+	body.ie10.with-translate #thmlvToggleWrap.thmlvToggleOpen {
+		-webkit-transform: translate3d(-70% , 0 , 0);
+		-moz-transform: translate3d(-70%,0,0);
+		-ms-transform: translate3d(-70%,0,0);
+		-o-transform: translate3d(-70%,0,0);    
+		transform: translate3d(-70%,0,0);    
+	}
+
+	body.with-translate #thmlvToggleWrap.thmlvToggleOpen {
+		right:-70%;
+	}
+
+	#thmlvToggleWrap {
+
+		right: -70%;
+		width: 70%;
+	}
+
+}
+
+@media (max-width : 500px) {
+
+	body.with-translate.thmlvToggleOpen {
+		-webkit-transform: translate3d(-100% , 0 , 0);
+		-moz-transform: translate3d(-100%,0,0);
+		-ms-transform: translate3d(-100%,0,0);
+		-o-transform: translate3d(-100%,0,0);    
+		transform: translate3d(-100%,0,0);    
+	}
+
+	body:not(.with-translate).thmlvToggleOpen {
+		left: -100%;
+	}
+
+	body.ie10.with-translate #thmlvToggleWrap.thmlvToggleOpen {
+		-webkit-transform: translate3d(-100% , 0 , 0);
+		-moz-transform: translate3d(-100%,0,0);
+		-ms-transform: translate3d(-100%,0,0);
+		-o-transform: translate3d(-100%,0,0);    
+		transform: translate3d(-100%,0,0);    
+	}
+
+	body.with-translate #thmlvToggleWrap.thmlvToggleOpen {
+		right:-100%;
+	}
+
+	#thmlvToggleWrap {
+
+		right: -100%;
+		width: 100%;
+	}
+
+}
